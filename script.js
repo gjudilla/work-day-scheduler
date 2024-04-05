@@ -9,7 +9,7 @@ $(function () {
   // time-block containing the button that was clicked? How might the id be
   // useful when saving the description in local storage?
   $(".saveBtn").on("click", function() {
-    var agenda = $(this).siblings(".agenda").val().trim();
+    var agenda = $(this).siblings(".description").val().trim();
     var timeBlock = $(this).parent().attr("id");
     localStorage.setItem(timeBlock, agenda);
   });
@@ -40,5 +40,3 @@ $(function () {
     $("#currentDay").text(currentDay);
 });
 });
-
-
