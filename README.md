@@ -3,6 +3,9 @@
 ## Description
 This scheduling application is a simple-to-use tool to help user's keep track of their daily tasks. This tool displays the current time and day with timeblocks for each hour between 9:00AM to 5:00pm. Colors indicate hours past (gray), the current hour (red), and future hours (green). Tasks will be saved even after the page is refreshed. 
 
+See screenshot below: 
+![alt text](<scheduler screenshot.png>)
+
 
 ## Installation
 
